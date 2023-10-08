@@ -1,1 +1,166 @@
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+:root {
+    /* ---Variables--- */
+    /* --Colors-- */
+    /* -Primary- */
+    --Pale-blue: hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+
+    /* -Neutral- */
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+    --hover-state: hsl(245, 83%, 68%);
+
+    /* --Typpgraphy-- */
+    /* -Font-size- */
+    --fs-default: 16px;
+
+    /* -Font Family- */
+    --fm-default: 'Red Hat Display', sans-serif;
+
+}
+
+body {
+    font-family: var(--fm-default);
+    font-size: var(--fs-default);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("../images/pattern-background-desktop.svg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-color: var(--Pale-blue);
+
+}
+
+main {
+    max-width: 450px;
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.card-body {
+    padding: 0 50px;
+}
+
+
+/* Text */
+.card-text {
+    padding: 30px 0;
+}
+
+h1 {
+    font-size: 30px;
+    color: var(--Dark-blue);
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.card-text p {
+    color: var(--Desaturated-blue);
+    margin-bottom: 35px;
+}
+
+
+/* Plan */
+.plan {
+    display: flex;
+    align-items: center;
+    background-color: var(--Very-pale-blue);
+    padding: 10px 20px;
+    border-radius: 100px;
+    font-size: 15px;
+}
+
+.plan-text {
+    margin-left: 15px;
+}
+
+.plan-type {
+    font-size: 1em;
+    font-weight: 600;
+    color: var(--Dark-blue);
+}
+
+.plan-price {
+    color: var(--Desaturated-blue);
+}
+
+.plan-btn {
+    margin-left: auto;
+    text-decoration: underline;
+    color: var(--Bright-blue);
+}
+
+.plan-btn:hover {
+    text-decoration: none;
+    color: var(--hover-state);
+}
+
+
+/* Buttons */
+.button {
+    font-weight: 600;
+}
+
+.payment-btn {
+    display: block;
+    background-color: var(--Bright-blue);
+    color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(75, 69, 69, 0.493);
+    margin-bottom: 25px;
+    padding: 15px;
+}
+
+.payment-btn:hover {
+    background-color: var(--hover-state);
+}
+
+.cancel-btn {
+    display: inline-block;
+    color: var(--Desaturated-blue);
+    margin-bottom: 40px;
+}
+
+.cancel-btn:hover {
+    color: var(--Dark-blue);
+}
+
+/* Responsiviness */
+@media screen and (max-width: 375px) {
+    body {
+        display: block;
+        margin: 10px;
+        background-image: url("../images/pattern-background-mobile.svg");
+    }
+
+    .card-body {
+        padding: 0 20px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .plan {
+        font-size: 13px;
+    }
+
+    .button {
+        font-size: 13px;
+    }
+
+    .payment-btn {
+        padding: 13px;
+        margin-bottom: 15px;
+    }
+
+    
+
+
+}
