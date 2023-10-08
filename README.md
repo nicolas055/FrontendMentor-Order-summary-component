@@ -44,6 +44,6 @@ Users should be able to:
 
 ## Author
 
-- Github - [@nicolas055] (https://github.com/nicolas055)
+- Github - [@nicolas055](https://github.com/nicolas055)
 - Frontend Mentor - [@nicolas055](https://www.frontendmentor.io/profile/nicolas055)
 - Instagram - [@nicolas_leite2](https://www.instagram.com/nicolas_leite2/)
