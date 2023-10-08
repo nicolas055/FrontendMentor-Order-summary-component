@@ -9,12 +9,9 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
-  - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -31,19 +28,10 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/order-summary-using-flexbox-vDA-Nwz0As)
+- [Live site URL](https://frontend-mentor-order-summary-component-vert.vercel.app/)
 
 ## My process
-
-### Built with
-
-- CSS custom properties
-- Flexbox
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
 ### What I learned
 
