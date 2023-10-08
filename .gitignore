@@ -15,6 +15,6 @@
 .DS_Store
 .prettierignore
 
-Readme-template.md
 style-guide.md
+challenge-readme.md
 design
